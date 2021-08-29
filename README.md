@@ -1,4 +1,4 @@
-<h1 align = "center"> :fast_forward: Monty Hall :rewind: </h1>
+<h1 align = "center"> :fast_forward: RememberMe :rewind: </h1>
 
 ## 🖥 Preview
 <p align = "center">
