@@ -9,7 +9,7 @@
 ---
 
 ## 📖 About
-<p>RememberMe is an app to add features that we want to keep registered for future use.</p>
+<p>RememberMe is an app to add resources that we want to keep registered for future use.</p>
 
 ---
 
