@@ -1,14 +1,16 @@
 <template>
   <div id="app">
+    <TheHeader title="RememberMe" />
     <StoredResources />
   </div>
 </template>
 
 <script>
 import StoredResources from './components/learning-resources/StoredResources.vue'
+import TheHeader from './components/layouts/TheHeader.vue'
 export default {
   components: {
-    StoredResources
+    StoredResources, TheHeader
   },
   data(){
     return{
@@ -18,7 +20,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -27,6 +29,7 @@ export default {
 
 html {
   font-family: 'Roboto', sans-serif;
+  background-color: #01152c;
 }
 
 body {
