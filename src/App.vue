@@ -1,11 +1,16 @@
 <template>
   <div id="app">
-
+    <LearningResources v-for="res in storedResources" :key="res.id"
+      :title="res.title" :description="res.description" :link="res.link" />
   </div>
 </template>
 
 <script>
+import LearningResources from './components/learning-resources/LearningResource.vue'
 export default {
+  components: {
+    LearningResources
+  },
   data(){
     return{
       storedResources: [
