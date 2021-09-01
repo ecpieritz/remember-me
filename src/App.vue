@@ -1,32 +1,18 @@
 <template>
   <div id="app">
-    <LearningResources v-for="res in storedResources" :key="res.id"
-      :title="res.title" :description="res.description" :link="res.link" />
+    <StoredResources />
   </div>
 </template>
 
 <script>
-import LearningResources from './components/learning-resources/LearningResource.vue'
+import StoredResources from './components/learning-resources/StoredResources.vue'
 export default {
   components: {
-    LearningResources
+    StoredResources
   },
   data(){
     return{
-      storedResources: [
-        {id:'vue-doc', 
-        title: 'Vue Documentation', 
-        description: 'Site with official Vue.js documentation',
-        link: 'https://vuejs.org/v2/guide/'},
-        {id:'bootstrap-vue-doc', 
-        title: 'Bootstrap-Vue Documentation', 
-        description: 'Site with official Bootstrap Vue documentation',
-        link: 'https://bootstrap-vue.org/'},
-        {id:'vuetify-doc', 
-        title: 'Vuetify Documentation', 
-        description: 'Site with official Vuetify documentation',
-        link: 'https://vuetifyjs.com/en/getting-started/installation/'}
-      ]
+      
     }
   }
 }
