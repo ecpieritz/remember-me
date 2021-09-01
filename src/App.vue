@@ -2,15 +2,18 @@
   <div id="app">
     <TheHeader title="RememberMe" />
     <StoredResources />
+
+    <TheFooter message="Developed with 💙 by Emilyn C. Pieritz" />
   </div>
 </template>
 
 <script>
 import StoredResources from './components/learning-resources/StoredResources.vue'
 import TheHeader from './components/layouts/TheHeader.vue'
+import TheFooter from './components/layouts/TheFooter.vue'
 export default {
   components: {
-    StoredResources, TheHeader
+    StoredResources, TheHeader, TheFooter
   },
   data(){
     return{
