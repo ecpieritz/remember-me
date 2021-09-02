@@ -36,5 +36,6 @@ export default {
   .flat:hover,
   .flat:active {
     background-color: #e065a9;
+    color: #fff;
   }
 </style>
