@@ -1,22 +1,19 @@
 <template>
   <div id="app">
-    <TheHeader title="RememberMe" />
-    <StoredResources />
+    <TheHeader title="RememberMe"></TheHeader>
+    <TheResources></TheResources>
 
     <TheFooter message="Developed with 💙 by Emilyn C. Pieritz" />
   </div>
 </template>
 
 <script>
-import TheHeader from './components/layouts/TheHeader.vue'
+import TheHeader from './components/layouts/TheHeader.vue';
+import TheResources from './components/learning-resources/TheResoucers.vue';
 import TheFooter from './components/layouts/TheFooter.vue'
+
 export default {
-  components: {TheHeader, TheFooter},
-  data(){
-    return{
-      
-    }
-  }
+  components: {TheHeader, TheResources, TheFooter}
 }
 </script>
 

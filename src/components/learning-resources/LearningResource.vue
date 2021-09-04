@@ -1,28 +1,22 @@
 <template>
-  <div class="learning-resource">
-    <ul>
-      <li>
-        <base-card>
-          <header>
-            <h3>{{title}}</h3>
-            <base-button mode="flat">Delete</base-button>
-          </header>
-          <p>{{description}}</p>
-          <nav>
-            <a :href="link" target="_blank">View Resource</a>
-          </nav>
-        </base-card>
-      </li>
-    </ul>
-  </div>
+    <li>
+    <base-card>
+      <header>
+        <h3>{{ title }}</h3>
+        <base-button mode="flat">Delete</base-button>
+      </header>
+      <p>{{ description }}</p>
+      <nav>
+        <a :href="link">View Resource</a>
+      </nav>
+    </base-card>
+  </li>
 </template>
 
 <script>
-import BaseButton from '../UI/BaseButton.vue'
 export default {
-  components: { BaseButton },
-  props: ['title', 'description', 'link']
-}
+  props: ['title', 'description', 'link'],
+};
 </script>
 
 <style>

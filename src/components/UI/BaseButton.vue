@@ -16,7 +16,6 @@ export default {
     font-family: inherit;
     background-color: #ce0071;
     border: 1px solid #ce0071;
-    border-radius: 8px;
     color: white;
     cursor: pointer;
   }
