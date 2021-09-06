@@ -2,8 +2,9 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "https://github.com/ecpieritz/xxx" max-width = "601">
-  <img src = "https://github.com/ecpieritz/xxx" max-width = "601">
+  <img src = "https://github.com/ecpieritz/remember-me/blob/main/public/img/print-1.jpg?raw=true" width = "700" height = "auto">
+  <img src = "https://github.com/ecpieritz/remember-me/blob/main/public/img/print-2.jpg?raw=true" width = "350" height = "auto">
+  <img src = "https://github.com/ecpieritz/remember-me/blob/main/public/img/print-3.jpg?raw=true" width = "350" height = "auto">
 </p>
 
 ---
