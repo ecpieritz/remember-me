@@ -1,4 +1,7 @@
 <template>
+  <base-dialog v-if="inputIsInvalid">
+    
+  </base-dialog>
   <base-card>
     <form @submit.prevent="submitData">
       <div class="form-control">
@@ -23,6 +26,11 @@
 <script>
 export default {
   inject: ['addResource'],
+  data(){
+    return{
+      inputIsInvalid: false,
+    }
+  },
   methods: {
     submitData() {
       const enteredTitle = this.$refs.titleInput.value;
@@ -30,7 +38,7 @@ export default {
       const enteredUrl = this.$refs.linkInput.value;
 
       if(enteredTitle.trim() === '' || enteredDescription.trim() === '' || enteredUrl.trim() === ''){
-        alert()
+        this.inputIsInvalid = true
         return
       }
 
